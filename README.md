@@ -28,7 +28,8 @@
   ### N/A
 
   ## Screenshot
-  ### to be added post video
+  ![Untitled_ Aug 23, 2022 11_23 PM](https://user-images.githubusercontent.com/53360057/186329137-fe9d20fd-7af3-4cf9-bc10-c19870594340.gif)
+
 
   ## Contributors
   ### Myself
