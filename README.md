@@ -28,7 +28,8 @@
   ### N/A
 
   ## Screenshot
-  ![Untitled_ Aug 23, 2022 11_23 PM](https://user-images.githubusercontent.com/53360057/186329137-fe9d20fd-7af3-4cf9-bc10-c19870594340.gif)
+  
+  https://user-images.githubusercontent.com/53360057/186331291-49d77914-9653-45f4-82a9-3082133da5ee.mp4
 
 
   ## Contributors
