@@ -27,7 +27,7 @@ function renderLicenseLink(license) {
   } else if (license === 'Mozilla Public License 2.0') {
     licenseLink = 'https://opensource.org/licenses/MPL-2.0'
   } else {
-    licenseLink = ''
+    licenseLink = 'None'
   }
   return licenseLink;
 }
@@ -48,6 +48,41 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.title}
 
+  ## Table of Contents:
+  - [License](#license)
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Tests](#tests)
+  - [Screenshot](#screenshot)
+  - [Contributors](#contributors)
+  - [Questions?](#questions)
+
+  ## License
+  ### ${renderLicenseLink(data.license)}
+
+
+  ## Description
+  ### ${data.description}
+
+  ## Installation
+  ### ${data.installation}
+
+  ## Usage
+  ### ${data.usage}
+
+  ## Tests
+  ### ${data.tests}
+
+  ## Screenshot
+  ### ${data.screenshot}
+
+  ## Contributors
+  ### ${data.contribution}
+
+  ## Questions? Reach me here:
+  ### ${data.github}
+  ### ${data.email}
 `;
 }
 
