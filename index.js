@@ -46,6 +46,11 @@ const questions = [
         name: 'email'
     },
     {
+        type: 'input',
+        name: 'screenshot',
+        message: 'Please provide a path to a screenshot of your project',
+    },
+    {
         type: 'list',
         message: 'Please choose a license for this project:',
         name: 'license',
